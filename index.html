@@ -1,0 +1,867 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kiva Stone & Tile | Natural Stone, Quartz, Porcelain & Luxury Surfaces</title>
+
+  <!-- SEO META TAGS -->
+  <meta name="description" content="A curated world of exceptional surfaces. Wholesale natural stone, quartz, porcelain, and tile collections for fabricators, builders, and designers in Carrollton, TX.">
+  <meta name="keywords" content="Kiva Stone, Natural Stone, Quartzite, Marble Dallas, Porcelain Tile, Slab Inventory, Puccini Stone, Duratile">
+  <meta name="robots" content="index, follow">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --cream: #f4f1e9;
+      --cream-light: #faf9f5;
+      --ink: #242722;
+      --green: #1e2922;
+      --muted: #77786f;
+      --line: #d9d6cd;
+      --line-subtle: #e6e3da;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--cream); color: var(--ink); font-family: 'DM Sans', sans-serif; font-size: 13.5px; line-height: 1.6; overflow-x: hidden; }
+    a { color: inherit; text-decoration: none; transition: opacity .2s; }
+    a:hover { opacity: .75; }
+
+    /* TOP ANNOUNCEMENT BAR */
+    .top-bar { background: var(--green); color: #e5e8e1; font-size: 10.5px; letter-spacing: .16em; text-transform: uppercase; padding: 8px 5%; display: flex; justify-content: center; gap: 16px; }
+    .top-bar a { color: #fff; }
+    .top-bar a:hover { text-decoration: underline; }
+
+    /* SITE HEADER */
+    .site-header { height: 84px; padding: 0 4.5%; display: flex; align-items: center; justify-content: space-between; background: var(--cream); position: sticky; top: 0; z-index: 100; border-bottom: 1px solid rgba(40,40,30,.1); }
+    .logo-container { display: flex; flex-direction: column; line-height: 1; }
+    .logo-crest { font-size: 11px; letter-spacing: .2em; color: var(--ink); margin-bottom: 2px; }
+    .logo-title { font-family: 'Cinzel', serif; font-size: 26px; letter-spacing: .22em; font-weight: 600; }
+    .logo-sub { font-size: 7.5px; letter-spacing: .35em; text-transform: uppercase; color: var(--muted); margin-top: 3px; font-weight: 500; }
+
+    /* DROPDOWNS */
+    .main-nav { display: flex; align-items: center; gap: 28px; font-size: 13px; }
+    .main-nav b { font-size: 9px; color: #888; }
+    .drop { position: relative; padding: 26px 0; }
+    .drop-menu { display: none; position: absolute; top: 76px; left: -16px; min-width: 250px; background: var(--cream-light); padding: 12px 18px; box-shadow: 0 16px 36px rgba(0,0,0,.08); border: 1px solid var(--line); z-index: 101; }
+    .drop-menu a.drop-item-link { display: block; padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,.06); }
+    .drop-menu a.drop-item-link:last-child { border-bottom: none; }
+    .drop-item-title-row { display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: 500; color: var(--ink); }
+    .drop-item-sub { display: block; font-size: 10.5px; color: var(--muted); margin-top: 3px; font-weight: 400; }
+    .drop-menu a.simple-link { display: flex; justify-content: space-between; align-items: center; padding: 9px 0; border-bottom: 1px solid rgba(0,0,0,.06); font-size: 12px; }
+    .drop-menu a.simple-link:last-child { border-bottom: none; }
+    .drop:hover .drop-menu { display: block; }
+
+    .header-right { display: flex; align-items: center; gap: 20px; }
+    .header-icons { display: flex; align-items: center; gap: 16px; }
+    .icon-link { background: none; border: none; font-size: 16px; color: var(--ink); display: flex; align-items: center; gap: 4px; cursor: pointer; }
+    .fav-count { font-size: 10px; vertical-align: super; }
+    .visit-btn { font-size: 12px; border-bottom: 1px solid var(--ink); padding-bottom: 3px; margin-left: 4px; white-space: nowrap; }
+
+    /* HERO VIDEO SECTION */
+    .hero-section { position: relative; min-height: 85vh; background: #151916; display: flex; align-items: flex-end; overflow: hidden; color: #ffffff; }
+    .hero-video { position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; transform: translate(-50%, -50%); object-fit: cover; z-index: 1; opacity: 0.88; pointer-events: none; }
+    .hero-watermark { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2; opacity: 0.22; pointer-events: none; text-align: center; }
+    .hero-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.55) 100%); z-index: 2; pointer-events: none; }
+    .hero-content { position: relative; z-index: 3; padding: 0 5% 5.5%; max-width: 850px; }
+    .hero-eyebrow { font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; opacity: 0.9; margin-bottom: 12px; font-weight: 500; }
+    .hero-title { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(38px, 5.2vw, 70px); line-height: 1.1; font-weight: 400; margin-bottom: 30px; color: #ffffff; }
+    .hero-btn { display: inline-flex; align-items: center; gap: 12px; background: #ffffff; color: var(--ink); padding: 13px 26px; font-size: 11px; letter-spacing: 0.08em; font-weight: 500; text-transform: uppercase; box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
+    .hero-btn:hover { background: #f1ede3; }
+
+    /* GENERAL SECTIONS */
+    .section { padding: 90px 6%; }
+    .section-eyebrow { font-size: 9.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; display: block; font-weight: 500; }
+    .section-header-row { display: flex; justify-content: space-between; align-items: flex-end; gap: 30px; margin-bottom: 36px; }
+    .section-header-row h2 { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(32px, 3.8vw, 52px); font-weight: 400; line-height: 1.15; }
+    .section-header-row p { max-width: 360px; color: var(--muted); line-height: 1.8; font-size: 13px; }
+    .section-link-top { font-size: 11.5px; letter-spacing: 0.06em; border-bottom: 1px solid var(--ink); padding-bottom: 4px; white-space: nowrap; }
+
+    /* VISION GRID (DIRECT .JPEG BACKGROUNDS) */
+    .vision-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .vision-card { position: relative; height: 480px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; color: #ffffff; padding: 30px; background-size: cover; background-position: center; background-repeat: no-repeat; }
+    .vision-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0.05) 30%, rgba(0,0,0,0.85) 100%); z-index: 1; }
+    .vision-card-content { position: relative; z-index: 2; }
+    .vision-card-sub { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.85; margin-bottom: 6px; }
+    .vision-card h3 { font-family: 'Playfair Display', Georgia, serif; font-size: 28px; font-weight: 400; margin-bottom: 6px; }
+    .vision-card-footer { display: flex; justify-content: space-between; align-items: center; font-size: 11px; opacity: 0.85; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 10px; margin-top: 6px; }
+    .material-tags-row { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 26px; font-size: 11.5px; color: var(--muted); letter-spacing: 0.04em; }
+
+    /* TRENDING GRID */
+    .trending-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+    .trending-card { background: transparent; display: flex; flex-direction: column; }
+    .trending-img-box { height: 330px; position: relative; overflow: hidden; background: #cfccc2; }
+    .trending-img-box img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; }
+    .trending-card:hover .trending-img-box img { transform: scale(1.04); }
+    .featured-tag { position: absolute; top: 12px; left: 12px; background: #ffffff; color: var(--ink); font-size: 8.5px; letter-spacing: 0.16em; text-transform: uppercase; padding: 5px 10px; font-weight: 500; z-index: 2; }
+    .heart-badge { position: absolute; top: 12px; right: 12px; background: rgba(255, 255, 255, 0.85); width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; z-index: 2; text-decoration: none; color: var(--ink); }
+    .trending-info { padding: 16px 0 0; }
+    .trending-title-row { display: flex; justify-content: space-between; align-items: center; }
+    .trending-info h4 { font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500; }
+    .trending-sub { font-size: 9.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+    .trending-note { font-size: 10.5px; color: var(--muted); margin-top: 24px; }
+
+    /* WORK GRID */
+    .work-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); margin-top: 25px; }
+    .work-item { padding: 38px 30px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); display: flex; flex-direction: column; justify-content: space-between; min-height: 220px; transition: background 0.2s ease; }
+    .work-item:hover { background: rgba(255,255,255,0.4); }
+    .work-num { font-size: 9px; letter-spacing: 0.18em; color: var(--muted); margin-bottom: 14px; display: block; }
+    .work-item h3 { font-family: 'Playfair Display', Georgia, serif; font-size: 23px; font-weight: 400; margin-bottom: 10px; }
+    .work-item p { color: var(--muted); font-size: 12.5px; line-height: 1.7; }
+    .work-arrow { margin-top: 24px; font-size: 12px; }
+
+    /* BRANDS GRID */
+    .brands-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+    .brand-card { border: 1px solid var(--line); background: var(--cream); display: flex; flex-direction: column; }
+    .brand-logo-box { background: #191b19; height: 190px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #ffffff; padding: 24px; text-align: center; }
+    .brand-logo-text { font-family: 'Cinzel', serif; font-size: 20px; letter-spacing: 0.25em; }
+    .brand-logo-sub { font-size: 8px; letter-spacing: 0.3em; margin-top: 6px; opacity: 0.7; }
+    .brand-content { padding: 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between; }
+    .brand-tag { font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; display: block; font-weight: 500; }
+    .brand-desc { font-size: 12.5px; color: var(--ink); line-height: 1.6; margin-bottom: 24px; }
+    .brand-link { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--line); padding-top: 14px; font-size: 11.5px; font-weight: 500; }
+
+    /* SHOWROOM SECTION */
+    .showroom-section { padding: 80px 6%; display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 50px; align-items: center; }
+    .showroom-image { height: 480px; background-size: cover; background-position: center; background-repeat: no-repeat; box-shadow: 0 12px 36px rgba(0,0,0,0.08); }
+    .showroom-info h2 { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(34px, 4vw, 48px); font-weight: 400; line-height: 1.18; margin-bottom: 18px; }
+    .showroom-info > p { color: var(--muted); font-size: 13px; line-height: 1.8; margin-bottom: 30px; }
+    .showroom-meta { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; padding-top: 24px; border-top: 1px solid var(--line); margin-bottom: 32px; }
+    .showroom-meta h5 { font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; font-weight: 600; }
+    .showroom-meta p { font-size: 12px; line-height: 1.8; color: var(--ink); }
+    .showroom-meta a { font-size: 11.5px; text-decoration: underline; display: inline-block; margin-top: 8px; }
+    .showroom-cta { display: inline-block; background: var(--ink); color: #ffffff; padding: 14px 26px; font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 500; }
+    .showroom-cta:hover { background: var(--green); }
+
+    /* HUBSPOT LIVE FORM CONTAINER */
+    .hubspot-section { padding: 80px 6%; background: #ece8dc; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .hubspot-container { max-width: 680px; margin: 0 auto; background: #ffffff; padding: 35px 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+    .hubspot-container h3 { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 400; margin-bottom: 8px; text-align: center; }
+    .hubspot-container p { color: var(--muted); text-align: center; margin-bottom: 24px; font-size: 13px; }
+    .hubspot-iframe { width: 100%; min-height: 560px; border: none; overflow: hidden; background: transparent; }
+
+    /* PURE CSS POPUP MODALS */
+    .popup-modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(30, 41, 34, 0.65);
+      backdrop-filter: blur(4px);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.25s ease, visibility 0.25s ease;
+    }
+    .popup-modal-overlay:target {
+      opacity: 1;
+      visibility: visible;
+    }
+    .popup-modal-box {
+      background: #faf8f2;
+      width: 100%;
+      max-width: 620px;
+      padding: 45px 50px;
+      position: relative;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.25);
+      border: 1px solid var(--line);
+    }
+    .modal-close-btn {
+      position: absolute;
+      top: 24px;
+      right: 28px;
+      font-size: 22px;
+      color: var(--ink);
+      line-height: 1;
+      text-decoration: none;
+      font-weight: 300;
+    }
+    .modal-close-btn:hover { opacity: 0.7; }
+    .modal-eyebrow {
+      font-size: 9.5px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--muted);
+      display: block;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+    .popup-modal-box h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(34px, 4vw, 46px);
+      font-weight: 400;
+      margin-bottom: 24px;
+      color: var(--ink);
+      line-height: 1.15;
+    }
+    .modal-desc {
+      color: var(--muted);
+      font-size: 13.5px;
+      line-height: 1.8;
+      margin-bottom: 26px;
+    }
+    .modal-field-label {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--ink);
+      display: block;
+      margin-bottom: 8px;
+    }
+    .modal-input-wrap {
+      border: 1px solid #7c8877;
+      background: #ffffff;
+      padding: 14px 18px;
+      margin-bottom: 16px;
+    }
+    .modal-input-wrap input {
+      width: 100%;
+      border: none;
+      background: none;
+      outline: none;
+      font-size: 14px;
+      font-family: inherit;
+      color: var(--ink);
+    }
+    .modal-input-wrap input::placeholder { color: #77786f; }
+    .modal-action-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: 1px solid var(--line);
+      background: #ffffff;
+      color: var(--ink);
+      padding: 13px 26px;
+      font-size: 11.5px;
+      letter-spacing: 0.08em;
+      font-weight: 600;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .modal-action-btn:hover { background: #f0ece1; }
+    .modal-submit-btn {
+      width: 100%;
+      background: #191c19;
+      color: #ffffff;
+      padding: 16px;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      font-weight: 600;
+      text-transform: uppercase;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .modal-submit-btn:hover { background: #26372e; }
+    .modal-note {
+      margin-top: 20px;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    /* FOOTER */
+    .footer { background: var(--green); color: #edebe4; padding: 70px 6% 30px; }
+    .footer-header-row { display: grid; grid-template-columns: 1.2fr 1.6fr 1.2fr; gap: 30px; align-items: start; padding-bottom: 45px; border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
+    .brand-crest-svg { color: #edebe4; margin-bottom: 6px; }
+    .footer-kiva-logo { font-family: 'Cinzel', serif; font-size: 30px; letter-spacing: 0.22em; line-height: 1; color: #ffffff; font-weight: 500; }
+    .footer-kiva-sub { font-family: 'DM Sans', sans-serif; font-size: 8px; letter-spacing: 0.35em; color: #9fa499; margin-top: 4px; }
+    .footer-tagline-box .footer-tagline { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(24px, 2.3vw, 34px); line-height: 1.25; font-weight: 400; color: #ffffff; margin: 0; }
+    .footer-convo-box { text-align: right; }
+    .footer-eyebrow { font-size: 9.5px; letter-spacing: 0.2em; text-transform: uppercase; color: #9fa499; margin-bottom: 14px; display: block; font-weight: 600; }
+    .footer-text-link { display: inline-block; border-bottom: 1px solid #ffffff; color: #ffffff; padding-bottom: 4px; font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 6px; }
+
+    .footer-mid-grid { display: grid; grid-template-columns: 1.2fr 1.6fr 1.2fr; gap: 30px; padding: 35px 0; }
+    .footer-mid-grid p { font-size: 12px; line-height: 1.85; color: #c9cebe; }
+    .footer-map-link { display: inline-block; margin-top: 8px; font-size: 11px; text-decoration: underline; color: #c9cebe; }
+
+    .footer-nav-grid { display: grid; grid-template-columns: 1.2fr 1.6fr 1.2fr; gap: 30px; padding-bottom: 45px; }
+    .footer-nav-grid a { display: block; font-size: 12px; margin: 8px 0; color: #c9cebe; }
+    .footer-nav-grid a:hover { color: #ffffff; }
+    .newsletter-sub { font-size: 12px; color: #c9cebe; margin-bottom: 16px; }
+    .newsletter-form { position: relative; border-bottom: 1px solid rgba(255, 255, 255, 0.35); padding-bottom: 8px; display: flex; justify-content: space-between; }
+    .newsletter-form input { background: none; border: none; color: #ffffff; font-size: 12px; width: 85%; outline: none; font-family: inherit; }
+    .newsletter-form button { background: none; border: none; color: #ffffff; cursor: pointer; font-size: 14px; }
+    .newsletter-note { font-size: 9.5px; color: #83887d; margin-top: 8px; }
+
+    /* ASSOCIATIONS ROW WITH EXACT 5 VECTOR BADGES */
+    .associations-bar { border-top: 1px solid rgba(255, 255, 255, 0.12); border-bottom: 1px solid rgba(255, 255, 255, 0.12); padding: 30px 0; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
+    .assoc-label span { display: block; font-size: 9.5px; letter-spacing: 0.22em; color: #ffffff; font-weight: 600; }
+    .assoc-label small { font-size: 9px; color: #8e9488; letter-spacing: 0.05em; }
+    .association-logos { display: flex; align-items: center; justify-content: space-between; flex-grow: 1; max-width: 880px; gap: 25px; color: #d1d5c9; }
+    .assoc-item { display: flex; align-items: center; opacity: 0.88; }
+    .assoc-svg { height: 36px; width: auto; display: block; }
+
+    .footer-bottom-row { display: flex; justify-content: space-between; align-items: center; padding-top: 24px; font-size: 10px; color: #8e9488; }
+    .footer-bottom-row a { color: #8e9488; text-decoration: underline; }
+
+    /* RESPONSIVE */
+    @media (max-width: 960px) {
+      .main-nav { display: none; }
+      .vision-grid { grid-template-columns: 1fr; }
+      .trending-grid { grid-template-columns: repeat(2, 1fr); }
+      .work-grid { grid-template-columns: repeat(2, 1fr); }
+      .brands-grid { grid-template-columns: repeat(2, 1fr); }
+      .showroom-section { grid-template-columns: 1fr; }
+      .footer-header-row, .footer-mid-grid, .footer-nav-grid { grid-template-columns: 1fr; gap: 24px; }
+      .footer-convo-box { text-align: left; }
+      .associations-bar { flex-direction: column; align-items: flex-start; }
+      .association-logos { flex-wrap: wrap; }
+    }
+    @media (max-width: 640px) {
+      .site-header { height: 70px; }
+      .visit-btn { display: none; }
+      .section { padding: 60px 6%; }
+      .section-header-row { display: block; }
+      .trending-grid, .work-grid, .brands-grid { grid-template-columns: 1fr; }
+      .popup-modal-box { padding: 30px 20px; }
+      .footer-bottom-row { flex-direction: column; gap: 10px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <span>A WORLD OF EXTRAORDINARY SURFACES</span>
+    <span>•</span>
+    <a href="collections.html">Discover the Kiva collection ↗</a>
+  </div>
+
+  <!-- MAIN SITE HEADER -->
+  <header class="site-header">
+    <a class="logo-container" href="index.html">
+      <span class="logo-crest">𓃑 𓃰 𓃑</span>
+      <span class="logo-title">KIVA</span>
+      <span class="logo-sub">STONE</span>
+    </a>
+
+    <nav class="main-nav">
+      <a href="collections.html">Collections <b>⌄</b></a>
+      <div class="drop">
+        <a href="inventory.html">Inventory <b>⌄</b></a>
+        <div class="drop-menu">
+          <a class="drop-item-link" href="https://kivastone.stoneprofitsweb.com/" target="_blank" rel="noopener">
+            <div class="drop-item-title-row">
+              <span>Slabs</span>
+              <span>↗</span>
+            </div>
+            <span class="drop-item-sub">Kiva live slab inventory</span>
+          </a>
+          <a class="drop-item-link" href="https://puccini.stoneprofitsweb.com/" target="_blank" rel="noopener">
+            <div class="drop-item-title-row">
+              <span>Tiles</span>
+              <span>↗</span>
+            </div>
+            <span class="drop-item-sub">Puccini live tile inventory</span>
+          </a>
+        </div>
+      </div>
+      <div class="drop">
+        <a href="brands.html">Brands <b>⌄</b></a>
+        <div class="drop-menu">
+          <a class="simple-link" href="brands.html">All Brands</a>
+          <a class="simple-link" href="https://puccinistone.com/" target="_blank" rel="noopener">Puccini ↗</a>
+          <a class="simple-link" href="https://duratileus.com/" target="_blank" rel="noopener">Duratile ↗</a>
+          <a class="simple-link" href="https://www.coverlambygrespania.com/" target="_blank" rel="noopener">Coverlam ↗</a>
+          <a class="simple-link" href="https://www.levantequartz.com/" target="_blank" rel="noopener">Levante ↗</a>
+          <a class="simple-link" href="https://www.kivastone.com/imperia/" target="_blank" rel="noopener">Imperia ↗</a>
+          <a class="simple-link" href="brands.html#emerald">Emerald ↗</a>
+        </div>
+      </div>
+      <div class="drop">
+        <a href="customers.html">Customers <b>⌄</b></a>
+        <div class="drop-menu">
+          <a class="simple-link" href="fabricators.html">Fabricators <span>↗</span></a>
+          <a class="simple-link" href="retailers.html">Kitchen & Bath Retailers <span>↗</span></a>
+          <a class="simple-link" href="builders.html">Builders <span>↗</span></a>
+          <a class="simple-link" href="designers.html">Designers <span>↗</span></a>
+          <a class="simple-link" href="architects.html">Architects <span>↗</span></a>
+          <a class="simple-link" href="contractors.html">Contractors <span>↗</span></a>
+        </div>
+      </div>
+      <a href="specials.html">Specials</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="header-icons">
+        <!-- PURE CSS SEARCH MODAL TRIGGER -->
+        <a href="#searchModal" class="icon-link" title="Search">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        </a>
+        <!-- PURE CSS WISHLIST MODAL TRIGGER -->
+        <a href="#wishlistModal" class="icon-link" title="Favorites">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          <span class="fav-count">0</span>
+        </a>
+      </div>
+      <a class="visit-btn" href="showroom.html">Visit Our Showroom ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO VIDEO SECTION -->
+    <section class="hero-section">
+      <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="hero-poster.jpeg">
+        <source src="kiva-hero.mp4" type="video/mp4">
+      </video>
+
+      <div class="hero-watermark">
+        <svg width="140" height="70" viewBox="0 0 100 50" fill="#ffffff" opacity="0.4"><circle cx="50" cy="25" r="18" fill="none" stroke="#fff" stroke-width="2"/><text x="50" y="29" font-size="10" text-anchor="middle" fill="#fff" font-family="Cinzel">KIVA</text></svg>
+      </div>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <div class="hero-eyebrow">NATURAL STONE · QUARTZ · PORCELAIN · TILE</div>
+        <h1 class="hero-title">A curated world of<br>exceptional surfaces.</h1>
+        <a class="hero-btn" href="collections.html">
+          <span>Explore Kiva Collections</span>
+          <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION 1: A MATERIAL FOR EVERY VISION (DIRECT .JPEG FILENAMES) -->
+    <section class="section">
+      <span class="section-eyebrow">THE KIVA COLLECTION</span>
+      <div class="section-header-row">
+        <h2>A material for every vision.</h2>
+        <p>Discover natural beauty, considered design, and surfaces that make a space your own.</p>
+      </div>
+
+      <div class="vision-grid">
+        <!-- 1. Natural Stone Card (Direct ns.jpeg) -->
+        <a class="vision-card" href="collections.html#natural-stone" style="background-image: url('ns.jpg')">
+          <div class="vision-card-content">
+            <div class="vision-card-sub">ONE OF A KIND. BY NATURE.</div>
+            <h3>Natural Stone</h3>
+            <div class="vision-card-footer">
+              <span>Explore the collection</span>
+              <span>↗</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- 2. Engineered Surfaces Card (Direct eng.jpeg) -->
+        <a class="vision-card" href="collections.html#engineered-surfaces" style="background-image: url('es.jpg')">
+          <div class="vision-card-content">
+            <div class="vision-card-sub">BEAUTY, REIMAGINED.</div>
+            <h3>Engineered Surfaces</h3>
+            <div class="vision-card-footer">
+              <span>Levante Quartz · Coverlam Porcelain</span>
+              <span>↗</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- 3. Tile Card (Direct tile.jpeg) -->
+        <a class="vision-card" href="collections.html#tiles" style="background-image: url('tile.jpg')">
+          <div class="vision-card-content">
+            <div class="vision-card-sub">DESIGN IN EVERY DETAIL.</div>
+            <h3>Tile</h3>
+            <div class="vision-card-footer">
+              <span>Puccini Mosaics, Duratile Flooring</span>
+              <span>↗</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="material-tags-row">
+        <a href="collections.html#natural-stone">Marble</a><span>·</span>
+        <a href="collections.html#natural-stone">Quartzite</a><span>·</span>
+        <a href="collections.html#natural-stone">Granite</a><span>·</span>
+        <a href="collections.html#natural-stone">Dolomite</a><span>·</span>
+        <a href="collections.html#natural-stone">Onyx</a><span>·</span>
+        <a href="collections.html#natural-stone">Limestone</a><span>·</span>
+        <a href="collections.html#natural-stone">Travertine</a><span>·</span>
+        <a href="collections.html#natural-stone">Soapstone</a><span>·</span>
+        <a href="collections.html#semiprecious">Semiprecious ↗</a>
+      </div>
+    </section>
+
+    <!-- SECTION 2: TRENDING (DIRECT .JPEG) -->
+    <section class="section" style="padding-top:20px;">
+      <div class="section-header-row" style="margin-bottom:28px;">
+        <h2 style="font-family:'Cinzel', serif; letter-spacing:0.08em; font-size:32px;">TRENDING</h2>
+        <a class="section-link-top" href="collections.html">Explore All Collections ↗</a>
+      </div>
+
+      <div class="trending-grid">
+        <div class="trending-card">
+          <div class="trending-img-box">
+            <span class="featured-tag">FEATURED SELECTION</span>
+            <a href="#wishlistModal" class="heart-badge" title="Add to favorites">♡</a>
+            <img src="tm.jpg" alt="Taj Mahal Quartzite Slab">
+          </div>
+          <div class="trending-info">
+            <div class="trending-title-row"><h4>Taj Mahal</h4><span>↗</span></div>
+            <div class="trending-sub">QUARTZITE · 3 CM · BEIGE</div>
+          </div>
+        </div>
+
+        <div class="trending-card">
+          <div class="trending-img-box">
+            <span class="featured-tag">FEATURED SELECTION</span>
+            <a href="#wishlistModal" class="heart-badge" title="Add to favorites">♡</a>
+            <img src="cv.jpg" alt="Calacatta Viola Marble Slab">
+          </div>
+          <div class="trending-info">
+            <div class="trending-title-row"><h4>Calacatta Viola</h4><span>↗</span></div>
+            <div class="trending-sub">MARBLE · WHITE & VIOLET</div>
+          </div>
+        </div>
+
+        <div class="trending-card">
+          <div class="trending-img-box">
+            <a href="#wishlistModal" class="heart-badge" title="Add to favorites">♡</a>
+            <img src="cc.jpg" alt="Crystal Collection Slabs">
+          </div>
+          <div class="trending-info">
+            <div class="trending-title-row"><h4>Crystal Collection</h4><span>↗</span></div>
+            <div class="trending-sub">COLLECTION · LIGHT</div>
+          </div>
+        </div>
+
+        <div class="trending-card">
+          <div class="trending-img-box">
+            <a href="#wishlistModal" class="heart-badge" title="Add to favorites">♡</a>
+            <img src="cq.jpg" alt="Calacatta Quartz Slabs">
+          </div>
+          <div class="trending-info">
+            <div class="trending-title-row"><h4>Calacatta Quartz</h4><span>↗</span></div>
+            <div class="trending-sub">QUARTZ · WHITE</div>
+          </div>
+        </div>
+      </div>
+      <p class="trending-note">Explore the collection, then check slab or tile inventory for current stock. Imagery is illustrative.</p>
+    </section>
+
+    <!-- SECTION 3: WORK WITH KIVA -->
+    <section class="section" style="padding-top:40px;">
+      <span class="section-eyebrow">YOUR VISION. OUR PARTNERSHIP.</span>
+      <div class="section-header-row">
+        <h2>Built around the way you work.</h2>
+        <p>From the first selection to the next project, discover a partner in Kiva.</p>
+      </div>
+
+      <div class="work-grid">
+        <a class="work-item" href="fabricators.html">
+          <div><span class="work-num">01</span><h3>Fabricators</h3><p>Consignment programs, volume pricing, and flexible terms tailored to your business.</p></div>
+          <span class="work-arrow">↗</span>
+        </a>
+        <a class="work-item" href="retailers.html">
+          <div><span class="work-num">02</span><h3>Kitchen & Bath Retailers</h3><p>Your one-stop source for stone and tile, backed by an extensive sampling program and dedicated sales support.</p></div>
+          <span class="work-arrow">↗</span>
+        </a>
+        <a class="work-item" href="builders.html">
+          <div><span class="work-num">03</span><h3>Builders</h3><p>Prefab and cut-to-size programs, with dedicated support for custom and production builders.</p></div>
+          <span class="work-arrow">↗</span>
+        </a>
+        <a class="work-item" href="designers.html">
+          <div><span class="work-num">04</span><h3>Designers</h3><p>Designer incentives, dedicated client meeting rooms, and A&D rep support.</p></div>
+          <span class="work-arrow">↗</span>
+        </a>
+        <a class="work-item" href="architects.html">
+          <div><span class="work-num">05</span><h3>Architects</h3><p>From material exploration to the finishing detail.</p></div>
+          <span class="work-arrow">↗</span>
+        </a>
+        <a class="work-item" href="contractors.html">
+          <div><span class="work-num">06</span><h3>Contractors</h3><p>Surface selections and project support for your next installation.</p></div>
+          <span class="work-arrow">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION 4: BRANDS -->
+    <section class="section" style="padding-top:40px;">
+      <span class="section-eyebrow">THE KIVA BRAND COLLECTION</span>
+      <div class="section-header-row">
+        <h2>Our Brands</h2>
+        <a class="section-link-top" href="brands.html">Explore All Brands ↗</a>
+      </div>
+
+      <div class="brands-grid">
+        <div class="brand-card">
+          <div class="brand-logo-box">
+            <svg width="40" height="40" viewBox="0 0 100 100" fill="none" stroke="#fff" stroke-width="6" style="margin-bottom:10px;"><circle cx="50" cy="50" r="35" stroke-dasharray="8 6"/></svg>
+            <div class="brand-logo-text">PUCCINI</div>
+            <div class="brand-logo-sub">NATURAL STONE</div>
+          </div>
+          <div class="brand-content">
+            <div><span class="brand-tag">TILE COLLECTIONS</span><p class="brand-desc">Tile collections for considered interiors.</p></div>
+            <a class="brand-link" href="https://puccinistone.com/" target="_blank" rel="noopener"><span>Explore Puccini</span><span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="brand-card">
+          <div class="brand-logo-box">
+            <svg width="40" height="40" viewBox="0 0 100 100" fill="none" stroke="#fff" stroke-width="8" style="margin-bottom:10px;"><rect x="25" y="25" width="50" height="50"/></svg>
+            <div class="brand-logo-text">DURATILE</div>
+            <div class="brand-logo-sub">LUXURY FLOORING</div>
+          </div>
+          <div class="brand-content">
+            <div><span class="brand-tag">FLOORING & TILE</span><p class="brand-desc">Flooring and tile collections for your next project.</p></div>
+            <a class="brand-link" href="https://duratileus.com/" target="_blank" rel="noopener"><span>Explore Duratile</span><span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="brand-card">
+          <div class="brand-logo-box">
+            <div class="brand-logo-text" style="font-size:24px; letter-spacing:0.18em;">COVERLAM</div>
+            <div class="brand-logo-sub">BY GRESPANIA</div>
+          </div>
+          <div class="brand-content">
+            <div><span class="brand-tag">PORCELAIN SURFACES</span><p class="brand-desc">Discover the possibilities of large-format porcelain.</p></div>
+            <a class="brand-link" href="https://www.coverlambygrespania.com/" target="_blank" rel="noopener"><span>Explore Coverlam</span><span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="brand-card">
+          <div class="brand-logo-box">
+            <div class="brand-logo-text">LEVANTE ®</div>
+            <div class="brand-logo-sub">LUXURY SURFACES</div>
+          </div>
+          <div class="brand-content">
+            <div><span class="brand-tag">QUARTZ COLLECTION</span><p class="brand-desc">Explore the Levante Quartz collection.</p></div>
+            <a class="brand-link" href="https://www.levantequartz.com/" target="_blank" rel="noopener"><span>Explore Levante</span><span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="brand-card">
+          <div class="brand-logo-box">
+            <div class="brand-logo-text">IMPERIA</div>
+            <div class="brand-logo-sub">LUXURY SURFACES</div>
+          </div>
+          <div class="brand-content">
+            <div><span class="brand-tag">PORCELAIN SLABS</span><p class="brand-desc">Explore the Imperia large-format porcelain collection.</p></div>
+            <a class="brand-link" href="https://www.kivastone.com/imperia/" target="_blank" rel="noopener"><span>Explore Imperia</span><span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="brand-card">
+          <div class="brand-logo-box">
+            <div class="brand-logo-text" style="font-size:22px; letter-spacing:0.3em;">EMERALD</div>
+            <div class="brand-logo-sub">COLLECTION</div>
+          </div>
+          <div class="brand-content">
+            <div><span class="brand-tag">SEMIPRECIOUS SURFACES</span><p class="brand-desc">Explore Emerald semiprecious surfaces for distinctive spaces.</p></div>
+            <a class="brand-link" href="brands.html#emerald"><span>Explore Emerald</span><span>↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: SHOWROOM -->
+    <section class="showroom-section">
+      <div class="showroom-image" style="background-image: url('expkiva.png')"></div>
+
+      <div class="showroom-info">
+        <span class="section-eyebrow">EXPERIENCE KIVA</span>
+        <h2>Some things deserve to be seen in person.</h2>
+        <p>Discover the movement of a vein. Feel the finish. Find the material that brings your vision to life with a personal selection visit.</p>
+
+        <div class="showroom-meta">
+          <div>
+            <h5>CARROLLTON SHOWROOM</h5>
+            <p>1135 W Trinity Mills Rd, #100<br>Carrollton, TX 75006</p>
+            <p style="margin-top:6px;">(972) 803-5002</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=1135+W+Trinity+Mills+Rd+%23100+Carrollton+TX+75006" target="_blank">View on Google Maps ↗</a>
+          </div>
+          <div>
+            <h5>HOURS</h5>
+            <p>Monday–Friday<br>8:30 AM–5:00 PM</p>
+            <p style="margin-top:6px;">Saturday<br>9:00 AM–2:00 PM</p>
+            <p style="margin-top:6px;">Sunday<br>Closed</p>
+          </div>
+        </div>
+
+        <a class="showroom-cta" href="showroom.html">Plan Your Showroom Visit ↗</a>
+      </div>
+    </section>
+
+    <!-- SECTION 6: HUBSPOT LIVE FORM CONTAINER -->
+    <section id="contact-form" class="hubspot-section">
+      <div class="hubspot-container">
+        <h3>Connect With Our Team</h3>
+        <p>Submit your dealer inquiry, trade program application, or project specifications directly to our Carrollton team.</p>
+        
+        <iframe class="hubspot-iframe" src="https://43ey6h.share-na2.hsforms.com/2MY3neRzUQuWjtEmpmne2hQ" title="Kiva Stone Dealer Enquiry Form"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- PURE CSS SEARCH MODAL POPUP -->
+  <div id="searchModal" class="popup-modal-overlay">
+    <div class="popup-modal-box">
+      <a href="#" class="modal-close-btn" aria-label="Close Modal">✕</a>
+      <span class="modal-eyebrow">EXPLORE KIVA</span>
+      <h2>What inspires you?</h2>
+      
+      <form action="collections.html" method="GET">
+        <label class="modal-field-label" for="siteSearch">Find a material</label>
+        <div class="modal-input-wrap">
+          <input type="text" id="siteSearch" name="q" placeholder="Try quartzite, Levante or blue..." required>
+        </div>
+        <button type="submit" class="modal-submit-btn">Search Materials ↗</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- PURE CSS WISHLIST MODAL POPUP -->
+  <div id="wishlistModal" class="popup-modal-overlay">
+    <div class="popup-modal-box">
+      <a href="#" class="modal-close-btn" aria-label="Close Modal">✕</a>
+      <span class="modal-eyebrow">YOUR MATERIAL SHORTLIST</span>
+      <h2>A few favorites.</h2>
+      <p class="modal-desc">Save materials with the heart icon to build your project shortlist.</p>
+      
+      <a href="#" class="modal-action-btn">
+        <span>Continue Exploring</span><span>↗</span>
+      </a>
+      <p class="modal-note">Your shortlist is saved in this browser.</p>
+    </div>
+  </div>
+
+  <!-- GREEN FOOTER (ALL 5 ASSOCIATION VECTOR BADGES) -->
+  <footer class="footer">
+    <div class="footer-header-row">
+      <div class="footer-brand-box">
+        <div class="brand-crest-svg">
+          <svg width="42" height="22" viewBox="0 0 100 48" fill="currentColor">
+            <path d="M12 14c-2 0-3 2-3 4s1 4 3 4 3-2 3-4-1-4-3-4zm0-6c-3 0-5 2-5 5s2 5 5 5 5-2 5-5-2-5-5-5zm76 6c-2 0-3 2-3 4s1 4 3 4 3-2 3-4-1-4-3-4zm0-6c-3 0-5 2-5 5s2 5 5 5 5-2 5-5-2-5-5-5zM38 10h24v4H38zm4 8h16v4H42zm-8 10h32v4H34z"/>
+            <circle cx="50" cy="20" r="16" fill="none" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="footer-kiva-logo">KIVA</div>
+        <div class="footer-kiva-sub">STONE</div>
+      </div>
+
+      <div class="footer-tagline-box">
+        <h2 class="footer-tagline">Extraordinary surfaces.<br>Endless possibility.</h2>
+      </div>
+
+      <div class="footer-convo-box">
+        <span class="footer-eyebrow">LET'S CREATE SOMETHING EXCEPTIONAL</span>
+        <a class="footer-text-link" href="https://43ey6h.share-na2.hsforms.com/2MY3neRzUQuWjtEmpmne2hQ" target="_blank" rel="noopener">Start a conversation ↗</a>
+      </div>
+    </div>
+
+    <div class="footer-mid-grid">
+      <div>
+        <span class="footer-eyebrow">VISIT KIVA STONE & TILE</span>
+        <p>1135 W Trinity Mills Rd, #100<br>Carrollton, TX 75006</p>
+        <a class="footer-map-link" href="https://www.google.com/maps/search/?api=1&query=1135+W+Trinity+Mills+Rd+%23100+Carrollton+TX+75006" target="_blank" rel="noopener">View on Google Maps ↗</a>
+      </div>
+      <div>
+        <span class="footer-eyebrow">CALL OUR TEAM</span>
+        <p><a href="tel:+19728035002" style="font-size:15px; letter-spacing:0.04em;">(972) 803-5002</a></p>
+      </div>
+      <div>
+        <span class="footer-eyebrow">SHOWROOM HOURS</span>
+        <p>Monday–Friday: 8:30 AM–5:00 PM<br>Saturday: 9:00 AM–2:00 PM<br>Sunday: Closed</p>
+      </div>
+    </div>
+
+    <div class="footer-nav-grid">
+      <div>
+        <span class="footer-eyebrow">EXPLORE</span>
+        <a href="collections.html">Our collections</a>
+        <a href="brands.html">Our brands</a>
+        <a href="specials.html">Specials</a>
+        <a href="https://kivastone.stoneprofitsweb.com/" target="_blank" rel="noopener">Slab inventory ↗</a>
+        <a href="https://puccini.stoneprofitsweb.com/" target="_blank" rel="noopener">Tile inventory ↗</a>
+      </div>
+      <div>
+        <span class="footer-eyebrow">WORK WITH KIVA</span>
+        <a href="customers.html">Customers</a>
+        <a href="showroom.html">Visit the showroom</a>
+        <a href="https://43ey6h.share-na2.hsforms.com/2MY3neRzUQuWjtEmpmne2hQ" target="_blank" rel="noopener">Become a trade partner ↗</a>
+      </div>
+      <div>
+        <span class="footer-eyebrow">THE NEXT GREAT FIND</span>
+        <p class="newsletter-sub">New materials. Fresh inspiration. In your inbox.</p>
+        <form class="newsletter-form" action="https://43ey6h.share-na2.hsforms.com/2MY3neRzUQuWjtEmpmne2hQ" method="GET" target="_blank">
+          <input type="email" placeholder="Your email address" required>
+          <button type="submit" aria-label="Subscribe">↗</button>
+        </form>
+        <p class="newsletter-note">Sample signup. No subscription will be sent.</p>
+      </div>
+    </div>
+
+    <!-- ASSOCIATIONS WITH 5 VECTOR LOGOS -->
+    <div class="associations-bar">
+      <div class="assoc-label">
+        <span>ASSOCIATIONS</span>
+        <small>Industry resources</small>
+      </div>
+
+      <div class="association-logos">
+        <div class="assoc-item" title="American Society of Interior Designers">
+          <svg class="assoc-svg" viewBox="0 0 160 55" fill="currentColor">
+            <text x="0" y="16" font-size="10" font-family="'DM Sans',sans-serif" letter-spacing="0.1em">AMERICAN</text>
+            <text x="0" y="27" font-size="10" font-family="'DM Sans',sans-serif" letter-spacing="0.1em">SOCIETY OF</text>
+            <text x="0" y="38" font-size="10" font-family="'DM Sans',sans-serif" letter-spacing="0.1em">INTERIOR</text>
+            <text x="0" y="49" font-size="10" font-family="'DM Sans',sans-serif" letter-spacing="0.1em">DESIGNERS</text>
+            <path d="M100 4 L145 16 L145 52 L100 52 Z" fill="none" stroke="currentColor" stroke-width="2.5"/>
+            <text x="106" y="45" font-size="34" font-weight="900" font-family="Georgia, serif">AS</text>
+            <text x="135" y="45" font-size="34" font-weight="900" font-family="Georgia, serif">ID</text>
+          </svg>
+        </div>
+
+        <div class="assoc-item" title="National Kitchen & Bath Association">
+          <svg class="assoc-svg" viewBox="0 0 130 50" fill="currentColor">
+            <text x="0" y="36" font-size="34" font-weight="900" font-family="'DM Sans',sans-serif" letter-spacing="0.05em">NKBA</text>
+            <text x="96" y="22" font-size="7" font-weight="700" letter-spacing="0.05em">NATIONAL</text>
+            <text x="96" y="30" font-size="7" font-weight="700" letter-spacing="0.05em">KITCHEN+BATH</text>
+            <text x="96" y="38" font-size="7" font-weight="700" letter-spacing="0.05em">ASSOCIATION</text>
+          </svg>
+        </div>
+
+        <div class="assoc-item" title="International Interior Design Association">
+          <svg class="assoc-svg" viewBox="0 0 150 50" fill="currentColor">
+            <line x1="0" y1="36" x2="140" y2="36" stroke="currentColor" stroke-width="1.5"/>
+            <text x="10" y="30" font-size="32" font-family="'Playfair Display',serif" letter-spacing="0.25em">IIDA</text>
+            <text x="6" y="46" font-size="7" letter-spacing="0.14em">INTERNATIONAL</text>
+            <text x="70" y="46" font-size="7" letter-spacing="0.14em">DESIGN</text>
+          </svg>
+        </div>
+
+        <div class="assoc-item" title="Natural Stone Institute">
+          <svg class="assoc-svg" viewBox="0 0 150 50" fill="currentColor">
+            <polygon points="5,44 5,20 28,10 42,16 42,44" fill="currentColor" opacity="0.9"/>
+            <text x="52" y="24" font-size="11" font-weight="700" letter-spacing="0.12em">NATURAL</text>
+            <text x="52" y="35" font-size="11" font-weight="700" letter-spacing="0.12em">STONE</text>
+            <text x="52" y="45" font-size="8" letter-spacing="0.15em" opacity="0.8">INSTITUTE</text>
+          </svg>
+        </div>
+
+        <div class="assoc-item" title="National Association of the Remodeling Industry">
+          <svg class="assoc-svg" viewBox="0 0 120 50" fill="currentColor">
+            <path d="M8 20 L25 5 L42 20 Z" fill="none" stroke="currentColor" stroke-width="2.5"/>
+            <text x="0" y="44" font-size="28" font-weight="900" font-family="'DM Sans',sans-serif" letter-spacing="0.1em">NARI</text>
+            <text x="52" y="32" font-size="6.5" font-weight="600">Remodeling Done Right.™</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTTOM ROW -->
+    <div class="footer-bottom-row">
+      <span>© 2026 Kiva Stone & Tile</span>
+      <span>Website concept · Realtime StoneProfits inventory integration</span>
+      <a href="index.html">About this sample</a>
+    </div>
+  </footer>
+
+</body>
+</html>
